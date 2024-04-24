@@ -216,7 +216,7 @@ footer{
 }
 .footer{
     display: grid;
-    grid-template-columns: 14% 28% 53.5% 0%;
+    grid-template-columns: 14% 28% 1fr auto;
     margin-top: 34px;
 }
 .footer_item{
