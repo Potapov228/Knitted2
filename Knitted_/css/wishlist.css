@@ -21,13 +21,7 @@
     font-family: "HM";
     src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
 }
-@font-face {
-    font-family: "HR";
-    src: url(../fonts/HelveticaNeueCyr-Roman.otf);
-}
-
-
-*{
+* {
     padding: 0;
 }
 
@@ -49,7 +43,6 @@ header{
 .logo a {
     text-decoration: none;
     color: black;
-    font-weight: 900;
     font-size: 42px;
     font-family: "GEB";
 }
@@ -98,169 +91,28 @@ header{
     color: black;
 }
 
-/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
-main{
-    margin-top: 95px;
-}
+
+
+/* SECTION2 SECTION2 SECTION2 SECTION2 SECTION2 SECTION2 */
 
 .container2{
     max-width: 1330px;
     margin: 0 auto;
 }
 
-.card{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-
-.photo{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 880px;
-    gap: 10px;
-}
-
-.size {
-    display: flex;
-    flex-direction: column;
-}
-
-.info_item h2{
-    font-size: 32px;
-    margin-bottom: 15px;
-    font-family: "GR";
-}
-.info_item .cena1{
-    font-size: 24px;
-    margin-bottom: 32px;
-    font-family: "GR";
-    color: rgba(0, 0, 0, 0.75);
-}
-.info_item .cena{
-    font-family: 'circular';
-    color: black;
-    font-size: 24px;
-}
-.country{
-    display: flex;
-    gap: 32px;
-    font-size: 24px;
-    margin-bottom: 32px;
-}
-.country a{
-    text-decoration: none;
-    color: black;
-}
-
-.size_item{
-    display: grid;
-    grid-template-columns: repeat(4, 63px);
-}
-.size_price{
-    width: 50px;
-    font-size: 16px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-.size_price a{
-    text-decoration: none;
-    color: black;
-    font-family: "GR";
-}
-.size_price p{
-    color: rgba(0, 0, 0, 0.65);
-    margin-top: 5px;
-}
-.bbb {
-    display: flex;
-    justify-content: end;
-}
-
-.button2{
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-}
-.button2 .input1 {
-    border: 1px solid white;
-    background-color: white;
-    height: 40px;
-    margin-bottom: 15px;
-    font-family: "HL";
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.1);
-}
-.button2 .input2 {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    color: white;
-    height: 40px;
-    margin-bottom: 32px;
-    font-family: "HL";
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
-}
-.button2 a {
-    color: black;
-    font-family: "HL";
-    font-size: 14px;
-}
-
-
-/* SECTION SECTION SECTION SECTION SECTION SECTION SECTION */
-
-.section3{
-    margin-top: 70px;
-    height: 500px;
-}
-
-.info2 {
-    display: flex;
-    gap: 60px;
-}
-.info_item2{
-    max-width: 425px;
-}
-.info_item2 h2{
-    font-size: 24px;
-    margin-bottom: 15px;
-    font-family: "GR";
-}
-.info_item2 h3{
-    font-size: 20px;
-    margin-bottom: 30px;
-    font-family: "HL";
-}
-.info_item2 .p1{
-    font-size: 16px;
-    font-family: "HL";
-    color: black;
-    line-height: 1.5;
-}
-
-
-.info_item2 .p2{
-    font-size: 16px;
-    margin-bottom: 8px;
-    font-family: "HR";
-}
-.info_item2 .p3{
-    margin-bottom: 18px;
-    font-family: "HL";
-}
-
-/* SECTION2 SECTION2 SECTION2 SECTION2 SECTION2 SECTION2 SECTION2 */
-
-.section2{
-    margin-bottom: 200px;
-}
 
 .section2 h2{
+    margin-top: 36px;
+    margin-bottom: 87px;
+    font-weight: 400;
+    font-size: 36px;
     font-family: "HL";
 }
+
+.section2{
+    margin-top: 85px;
+}
+
 .card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -314,9 +166,36 @@ main{
     font-family: "circular";
 }
 
+.bbb {
+    display: flex;
+    justify-content: end;
+}
+
+.button3{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.button3 button{
+    width: 135px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: white;
+    font-family: "HL";
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 18px;
+    box-shadow: 0px 10px 15px -2px rgba(0,0,0,0.1);
+}
+
+
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 footer{
+    margin-top: 500px;
     border-top: 1px solid rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 .footer{
     display: grid;
@@ -347,6 +226,7 @@ footer{
     background-color: white;
     box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.1);
     padding-left: 10px;
+    font-family: "HL";
 }
 
 .logo2{
@@ -360,12 +240,3 @@ footer{
     font-family: "GEB";
 
 }
-
-
-/* @media (max-width: 1190px){
-    .card{
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-    }
-} */
